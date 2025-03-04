@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/DhirajW/projects/nikeapi/static/css/main.621ecd1e.css",
+    "main.js": "/DhirajW/projects/nikeapi/static/js/main.a8b6d4f6.js",
+    "static/media/nike_logo-1.png": "/DhirajW/projects/nikeapi/static/media/nike_logo-1.ae20df205af0c4f78956.png",
+    "static/media/nike3.webp": "/DhirajW/projects/nikeapi/static/media/nike3.022eb6a10affc18610a9.webp",
+    "static/media/nike2.webp": "/DhirajW/projects/nikeapi/static/media/nike2.6526ea81e9d41b3fb0a6.webp",
+    "static/media/hero.webp": "/DhirajW/projects/nikeapi/static/media/hero.a5cb4987a2106633aceb.webp",
+    "static/media/nike1.webp": "/DhirajW/projects/nikeapi/static/media/nike1.aca495cec6d2138ab17a.webp",
+    "index.html": "/DhirajW/projects/nikeapi/index.html",
+    "main.621ecd1e.css.map": "/DhirajW/projects/nikeapi/static/css/main.621ecd1e.css.map",
+    "main.a8b6d4f6.js.map": "/DhirajW/projects/nikeapi/static/js/main.a8b6d4f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.621ecd1e.css",
+    "static/js/main.a8b6d4f6.js"
+  ]
+}
