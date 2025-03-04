@@ -1,0 +1,58 @@
+:root{
+    --bs-font:'Mukta Mahee', sans-serif;
+    --bs-font:'Playfair Display', serif;
+    --bs-red:red;
+    --bs-lg:lightgray;
+  
+}
+.hfont{
+ font-family: 'Playfair Display', serif;
+}
+.pfont{
+font-family:'Mukta Mahee', sans-serif ;
+}
+
+.herobimg{
+    background-image:linear-gradient(rgba(4, 2, 2, 0.5),rgba(4, 2, 2, 0.5)),url(../img/hero_1.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.heroheading{
+    /* border:3px solid; */
+    text-align: center;
+    margin-top: 5%;
+}
+.fa-bars{
+    color:white;
+    font-size: 30px;
+}
+.check1{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.checkform1{
+    padding-bottom: 70px;
+}
+.button{
+    margin-top:33px;    
+}
+.welcome1{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.room1{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.tbg{
+   
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.blog1{
+    padding-bottom: 100px;
+}
+.make1{
+    padding-bottom: 100px;
+}
