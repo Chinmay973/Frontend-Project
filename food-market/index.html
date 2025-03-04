@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css" text="text/css">
+  </head>
+  <body>
+  <div class="container-fluid p-0">
+  <section class="header">
+    <div class="container-fluid p-0">
+      <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-light fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="images/logo-dark-dhi.png"></a>
+                      
+
+                      <nav class="navbar navbar-expand-lg bg-light d-none d-lg-block">
+                        <div class="container-fluid">
+                          <!-- <a class="navbar-brand" href="#">Navbar</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button> -->
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item dropdown fontrubik">
+                                <a class="nav-link px-4">
+                                  Home
+                                </a>
+                               
+                              </li>
+                              <li class="nav-item fontrubik">
+                                <a class="nav-link px-4" aria-current="page" href="#">About</a>
+                              </li>
+                              <li class="nav-item  fontrubik">
+                                <a class="nav-link  px-4 ">
+                                  Shop
+                                </a>
+                                
+                              </li>
+                              <li class="nav-item  fontrubik">
+                                <a class="nav-link px-4">
+                                  News
+                                </a>
+                                
+                              </li>
+                              <li class="nav-item fontrubik px-4">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+
+                      <div class="baricon">
+                        <i class="fas fa-search px-2"></i>
+                        <i class="fas fa-shopping-cart px-2"></i>
+                        <button class="navbar-toggler-primary-dark bg-dark d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                          <!-- <span class="navbar-toggler-icon bg-dark  "></span>
+                           --><i class="fas fa-bars bg-dark text-white"></i>
+                        </button>
+                      </div> 
+                      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                          <img src="images/logo-light.png">
+
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav bar justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item-active dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Home
+                              </a>
+                            
+                            </li>
+                            <hr>
+                            <li class="nav-item ">
+                              <a class="nav-link fonth" href="#">About</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Product details</a></li><hr>
+                                <li><a class="dropdown-item" href="#">Card page</a></li><hr>
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                              </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">News</a></li><hr>
+                                <li><a class="dropdown-item" href="#">News Details</a></li><hr>  
+                              </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="#">Contacts</a>  
+                              <hr>
+                            </li>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+  </section ><!--end of header-->
+  <!-- <section class="hero position-relative"> -->
+  <section class="hero-section">
+    <div class="container-fluid p-0">
+      <!-- <div class="row position-relative">
+        <div class="col-12"> -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button " data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/background-1-dhi.jpg" class="d-block w-100 h-100" alt="...">
+                
+                <div  class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up" data-aos-duration="500">
+                  <h2 class="display-1 display-md-3 display-lg-2 fonth pt-4">Organic</h2>
+                  <h2 class="display-1 display-md-3 display-lg-2 fonth">Food Market.</h2>
+                  <button type="button" class="btn btn-success btn-lg rounded-0 border-1 fontrubik ">Success</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/background-2-dhi.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption carousel-caption d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up" data-aos-duration="1000">
+                  <h2 class="display-1 display-md-3 display-lg-2 fonth pt-4">Organic</h2>
+                  <h2 class="display-1 display-md-3 display-lg-2 fonth">Food Market.</h2>
+                  <button type="button" class="btn btn-success btn-lg rounded-0  fontrubik ">Success</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- </div>
+      </div> -->
+    </div> 
+  </section><!--end of herosection -->
+<section class="policy position-relative">
+  <div class="container">
+    <div class="row"  data-aos="flip-up"  data-aos-duration="1000" >
+      <div class="col-12">
+        <div class="return-policy w-75 position-absolute top-100 start-50 translate-middle">
+          <div class="container-fluid">
+            <div class="row bg-white">
+
+              <div class="c1 col-12 col-md-6 col-lg-4 p-3">
+                <div class="d-flex  justify-content-centr">
+                  <div class="flex-shrink-0 py-5">
+                    <i class="fas fa-globe-americas text-center mx-3 fs-5"></i>
+                  </div>
+                  <div class="flex-grow-1 text-center px-1 py-4">
+                    <h5>Return Policy</h5>
+                    <small class="fontrubik"><lead>Money back guarantee assuare.</lead></small>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="vr d-none d-md-block"></div> -->
+              <div class="c1 col-12 col-md-6 col-lg-4 d-none d-md-block p-3">
+                <div class="d-flex  justify-content-centr"  >
+                  <div class="flex-shrink-0 py-5 ">
+                    <i class="fas fa-address-card fs-5 mx-3 "></i>
+                  </div>
+                  <div class="flex-grow-1 px-1 py-4  text-center ">
+                    <h5>Free Shipping</h5>
+                    <small class="fontrubik"><lead>On all orders over $25.00</lead></small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="c col-12 col-md-6 col-lg-4 d-none d-lg-block p-3">
+                <div class="d-flex  justify-content-centr">
+                  <div class="flex-shrink-0 py-5">
+                    <i class="fas fa-globe-americas mx-3 fs-5"></i>
+                  </div>
+                  <div class="flex-grow-1 text-center px-3 py-4">
+                    <h5>Store Locators</h5>
+                    <small class="fontrubik"><lead>Find your nearest store</lead></small>
+                  </div>
+                </div>
+              </div> 
+               
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--end of policy-->
+<!-- </section>end of hero -->
+
+<section class="new-product py-4">
+  <div class="container">
+    <div class="row">
+      <div class="bgimg col-12 pt-5 mt-5">
+        
+        <ul class="bg text-center text-md-left">
+          <h4 class="added fontrubik text-secondary"><small>Recently added</small></h4>
+          <h2 class="display-3 fonth">New Products</h2>
+        </ul>
+        <ul class="nav nav-tabs d-flex justify-content-start justify-content-md-end py-2" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active tgreen" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link tgreen" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Dairy</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link  tgreen" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Pantary</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link tgreen" id="meat-tab" data-bs-toggle="tab" data-bs-target="#meat-tab-pane" type="button" role="tab" aria-controls="meat-tab-pane" aria-selected="false">Meat</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link tgreen" id="fruit-tab" data-bs-toggle="tab" data-bs-target="#fruit-tab-pane" type="button" role="tab" aria-controls="fruit-tab-pane" aria-selected="false">Fruits</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link tgreen" id="vegetable-tab" data-bs-toggle="tab" data-bs-target="#vegetable-tab-pane" type="button" role="tab" aria-controls="vegetable-tab-pane" aria-selected="false">Vegetable</button>
+          </li>
+        </ul>
+        <br>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/bananadhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2 " data-aos="fade-up" data-aos-duration="1000" >
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Banana</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star " data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="500"></i><i class="fas fa-star"data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="500"></i><i class="fas fa-star" data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="500"></i><i class="fas fa-star"data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="500"></i><i class="fas fa-star"data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="500"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan2dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2" data-aos="fade-up"  data-aos-duration="2000">
+                            <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                            <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                            <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                          <br>
+                          <h5 class="card-title fonth">Olive oils</h5>
+                          <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banana3dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Eggs</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan4dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Tomatoes</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan5dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Bread</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan6dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Apple</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+      
+          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+           <div class="container">
+            <div class="row g-5">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card rounded-0">
+                <div>
+                  <img src="images/bananadhi.jpg" class="card-img-top" alt="banana">
+                </div>
+                <div class="card-body position-relative text-center border-warning">
+                    <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                      <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                       <i class="fas fa-hearts rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                      <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                    </div>
+                    <br>
+                    <h5 class="card-title fonth">Banana</h5>
+                    <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                  <a class="fontrubik text-dark" href="#">$1.00</a>
+                </div>
+              </div>
+            </div>  
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card rounded-0">
+                <div>
+                  <img src="images/banan4dhi.jpg" class="card-img-top" alt="banana" >
+                </div>
+                <div class="card-body position-relative text-center border-warning">
+                    <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                      <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                      <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                      <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                    </div>
+                    <br>
+                    <h5 class="card-title fonth">Tomatoes</h5>
+                    <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                  <a class="fontrubik text-dark" href="#">$1.00</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan2dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Olive oils</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="tab-pane fade" id="meat-tab-pane" role="tabpanel" aria-labelledby="meat-tab" tabindex="0">
+          <div class="container">
+            <div class="row g-5">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card rounded-0">
+                <div>
+                  <img src="images/banana3dhi.jpg" class="card-img-top" alt="banana">
+                </div>
+                <div class="card-body position-relative text-center border-warning">
+                    <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                      <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-hecess rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-ccess rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                    </div>
+                    <br>
+                    <h5 class="card-title fonth">Eggs</h5>
+                    <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                  <a class="fontrubik text-dark" href="#">$1.00</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="fruit-tab-pane" role="tabpanel" aria-labelledby="fruit-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan5dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Bread</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="vegetable-tab-pane" role="tabpanel" aria-labelledby="vegetable-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card rounded-0">
+                    <div>
+                      <img src="images/banan6dhi.jpg" class="card-img-top" alt="banana">
+                    </div>
+                    <div class="card-body position-relative text-center border-warning">
+                        <div class="p1 position-absolute top-0 start-50 translate-middle border-2"  data-aos="fade-up"  data-aos-duration="1000">
+                          <i class="far fa-eye rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-heart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                          <i class="fas fa-shopping-cart  rounded-circle text-white p-2 p-md-2 p-lg-2  m-1"></i>
+                        </div>
+                        <br>
+                        <h5 class="card-title fonth">Apple</h5>
+                        <p class="card-text p-2 fontrubik tgreen"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <a class="fontrubik text-dark" href="#">$1.00</a>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--end of new products -->
+<section class="twocards border-1 my-3 py-5 border-warning">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-12 col-md-6 " data-aos="fade-right" data-aos-duration="1000">
+        <div class="card text-dark rounded-0 border rounded-0">
+          <img src="images/card-2-bg-1.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <div class="organic ps-lg-5 fs-lg-5">
+              <h2 class="card-title p-1 pt-lg-3 display-0 fonth"><h>100%<br>Organic</h></h2>
+              <p class="card-text  text-secondary display-0 fontrubik">Quality Organaic Food Stuff.</p>
+              <a href="#" class="btn btn-light py-0 px-4  my-0 rounded-0 fontrubik fontrubik">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+        <div class="card text-dark rounded-0 border rounded-0">
+          <img src="images/card2-bg-2.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay ">
+            <div class="organic ps-lg-5">
+              <h2 class="card-title p-1 pt-lg-3 display-0 fonth"><h>100%<br>Organic</h></h2>
+              <p class="card-text  text-secondary display-0 fontrubik">Quality Organaic Food Stuff.</p>
+              <a href="#" class="btn btn-light py-0 px-4  my-0 rounded-0 fontrubik fontrubik snip1086 ">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--end of 2 cards -->
+<section class="fun-fact">
+  <div class="container">
+    <div class="row" data-aos="fade-up" data-aos-duration="1000" >
+      <div class=" col-12 col-md-6 col-lg-3 text-center text-white py-5">
+        <h2 class="display-2">8,080</h2>
+        <p class="tgreen fontrubik"><b>Organic Products Available</b></p>
+        <!-- <div class="vr" style="height: 200px;"></div> -->
+      </div>
+      <!-- <div class="vr warning"></div> -->
+      <div class="  col-12 col-md-6 col-lg-3 text-center text-white py-5">
+        <h2 class="display-2">1,080</h2>
+        <p class="tgreen fontrubik"><b>Organic Products Available</b></p>
+      </div>
+      <div class="  col-12 col-md-6 col-lg-3 text-center text-white py-5">
+        <h2 class="display-2">7,080</h2>
+        <p class="tgreen fontrubik"><b>Organic Products Available</b></p>
+      </div>
+      <div class=" col-12 col-md-6 col-lg-3 text-center text-white py-5">
+        <h2 class="display-2">5,080</h2>
+        <p class="tgreen fontrubik"><b>Organic Products Available</b></p>
+      </div>
+    </div>
+  </div>
+</section><!--end of section fun-fact-->
+<section class="cell">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="c1 col-12 col-md-6 p-5" >
+        <img src="images/cell-guarantedhi.png" class="rounded mx-auto d-block" alt="..." data-aos="fade-down-right" data-aos-duration="1000">
+      </div>
+      <div class="c2 col-12 col-md-6 py-5 ">
+          <div class="c22 text-white">
+            <h5 class="py-2 fontrubik">Shopping Store</h5>
+            <h2 class="fonth">Organic Food Only</h2>
+            <p class="lead  py-4 fontrubik"><small>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humor or random word.</small></p>
+            <div class="row p-1">
+              <div class="col-12 col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-tractor"></i>
+                </div>
+                <div class="flex-grow-1 ms-2">
+                  <h5 class="fonth p-1">Solution for Farming</h5>
+                </div>
+              </div>
+              </div>
+              <div class="col-12 col-md-6">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-sun"></i>
+                </div>
+                <div class="flex-grow-1 ms-2">
+                  <h5 class="fonth p-1">Professional Farmers</h5>
+                </div>
+              </div>
+            </div>
+            </div>
+            <a href="#" class="btn btn-primary bg-dark px-4 py-3 my-3 mt-md-5 rounded-0 border-0 fontrubik"><b>Order Now</b></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</section><!--end of cell-->
+
+<section class="everyday p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h5 class="pt-5 mt-3 fontrubik">Pure Organic Products</h5>
+        <h2 class="display-3 py-3 fonth"><b>Everday Fresh Food</b></h2>
+        <div class="fig row fontrubik">
+          <div class="col-12 col-lg-6">
+            <h5 class="card-title text-success py-3 "><b>Duis aute irure dolor in reprehen in derit.</b></h5>
+            <p class="card-text py-1 lead ">Voluptate velit essects quis tempor orci. Suspendisse that potenti faucibus..</p>
+            <a href="#" class="btn btn-success rounded-0 py-4 px-5 my-4">Order now</a>
+          </div>
+          <div class="dhi col-12 col-lg-6 py-2">
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                Refresing to get such a touch
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                Duis aute irure dolor in
+              </div>
+            </div>           
+            
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                Reprehenderit in voluptate
+              </div>
+            </div>
+            
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                Velit esse cillum dolore eu
+              </div>
+            </div>
+            
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                Fugiat nulla pariatur
+              </div>
+            </div> 
+          </div>                       
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 py-5 d-flex align-items-center">
+        <img src="images/everydayimgdhi.png" class="img-fluid my-4" alt="..." data-aos-duration="1000" data-aos="fade-left">
+      </div> 
+    </div>
+  </div>
+</section>
+<section class="testimonial ">
+  <!-- <div class="row">
+    <div class="col-12"> -->
+      
+        <div class=" d-flex justify-content-center align-items-center p-0">
+          <h5 class="text-center"><span class="fontrubik">Our Testimonial</span> <br><b class="fonth">What People Say?</b></h5>
+        </div>
+      
+    <!-- </div>
+  </div> -->
+</section><!--end of testimonial-->
+<section class="customer">
+  <div class="container">
+  <div class="row fontrubik">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card rounded-0 border-end-4 border-success">
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="images/customer1dhi.png" class="card-img-top rounded-circle" alt="..."  data-aos="flip-up" data-aos-duration="1000">
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title p-5"></h5>
+          <p class="card-text lead text-secondary">I was very impresed by the osfins service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+          <h3 class="text-success">Hellen Woods</h3>
+          <small>Customer</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+      <div class="card rounded-0 border-end-4 border-success">
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="images/customer2dhi.png" class="card-img-top rounded-circle" alt="..." data-aos="flip-up" data-aos-duration="1000">
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title p-5"></h5>
+          <p class="card-text lead text-secondary">I was very impresed by the osfins service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+          <h3 class="text-success">Hellen Woods</h3>
+          <small>Customer</small>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block ">
+        <div class="card rounded-0 border-end-4 border-success">
+          <div class="position-absolute top-0 start-50 translate-middle">
+            <img src="images/customer3dhi.png" class="card-img-top rounded-circle" alt="..." data-aos="flip-up" data-aos-duration="1000">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title p-5"></h5>
+            <p class="card-text lead text-secondary">I was very impresed by the osfins service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+            <h3 class="text-success">Hellen Woods</h3>
+            <small>Customer</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section><!--end of customer-->
+<section class="instagram py-4">
+  <div class="container-fluid p-1">
+    <div class="row g-1">
+      <div class="col-12 text-center">
+        <h5 class="pt-5 mt-5 fontrubik"><small>We are on Instagram</small></h5>
+        <h2 class="pb-4 fonth">Shop on Instagram</h2>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 text-center">
+        <img src="images/insta1dhi.jpg" class="img-thumbnail rounded-0" alt="...">
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 d-none d-sm-block">
+        <img src="images/insta2dhi.jpg" class="img-thumbnail rounded-0" alt="...">
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+        <img src="images/insta3dhi.jpg" class="img-thumbnail rounded-0" alt="...">
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 d-none d-lg-block">
+        <img src="images/insta4.dhi.jpg" class="img-thumbnail rounded-0" alt="...">
+      </div>
+      <!-- <div class="col-12 col-md-4 col-lg-2 d-none d-lg-block">
+        <img src="images/insta5dhi.jpg" class="img-thumbnail" alt="...">
+      </div> -->
+    </div>
+  </div>
+</section>
+<section class="newsletter">
+  <div class="container-fluid ">
+    <div class="row py-5 m-1  justify-content-evenly p-4 fontrubik">
+      <div class="col-12 col-md-6 col-xl-2 border-0 py-2">
+        <!-- <div class="card bg-transparent border-transparent"> -->
+          <img src="images/logo-light.png" class="card-img-top pt-4 pe-5 pb-2 w-75" alt="...">
+          <p class=" text-white py-3 ps-2">Atiam rhoncus sit amet adip scing sed ipsum. Lorem ipsum dolor sit amet adipiscing
+              sem neque.
+          </p>
+        <!-- </div> -->
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-2 py-2">
+        <h2 class="py-2 mt-3 text-white">Contacts</h2>
+        <div class="d-flex justify-content-centr align-items-center">
+          <div class="flex-shrink-0 p-2">
+            <i class="fas fa-phone-square-alt tgreen "></i>
+          </div>
+          <div class="flex-grow-1 ms-0 text-white ps-2 py-2">
+            <a>666 888 0000</a>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="flex-shrink-0 p-2">
+            <i class="fas fa-envelope tgreen "></i>
+          </div>
+          <div class="flex-grow-1 ms-0 text-white ps-2 py-2">
+            <a>info@company.com</a>
+          </div>
+        </div>
+        <div class="d-flex ">
+          <div class="flex-shrink-0 p-2 ">
+            <i class="fas fa-map-marker-alt tgreen "></i>
+          </div>
+          <div class="flex-grow-1 ms-0 text-white ps-2 py-2">
+            <a>66 top broklyn street. New York</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-2 py-2">
+        <h2 class="p-2 mt-3 text-white">Link</h2>
+        <p class="text-white ps-1"><a><small>Top seller</small></a></p>
+        <p class="text-white ps-1"><a><small>Shopping</small></a></p>
+        <p class="text-white ps-1"><a><small>About store</small></a></p>
+        <p class="text-white ps-1"><a><small>Contact</small></a></p>
+        <!-- <p class="text-white ps-1"><a><small>Help</small></a><p> -->
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-2 py-2 ">
+        <h2 class="p-2 mt-3 text-white">Explore</h2>
+        <p class="text-white ps-1"><a><small>New Product</small></a></p>
+        <p class="text-white ps-1"><a><small>My Account</small></a></p>
+        <p class="text-white ps-1"><a><small>Support</small></a></p>
+        <p class="text-white ps-1"><a><small>FAQS</small></a></p>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-2 py-2">
+        <h2 class="p-2 mt-3 text-white">Newsletter</h2>
+        <form><input type="email" class="form-control py-3  rounded-0" id="inputEmail4" placeholder="Email Address"></form>
+        <!-- <button type="button" class="b1 btn btn-success btn-lg rounded-0 py-3 px-5 my-2">Success......</button>
+         -->
+         <div class="submit d-grid gap-2 col-12 ms-auto">
+          <button class="btn text-white rounded-0 py-2 px-5 my-2" type="button">Submit</button>
+        </div>
+      </div>  
+    <hr class="text-white py-3">
+    <div class="col-12 text-center py-3" data-aos-duration="1000" data-aos="fade-up">
+      <i class="fab fa-twitter text-white bg-dark rounded-circle p-3"></i>
+      <i class="fab fa-facebook-square text-white bg-dark rounded-circle p-3"></i>
+      <i class="fab fa-instagram text-white bg-dark rounded-circle p-3"></i>
+      <br>
+      <br>
+      <h5 class="lead  tgreen"> &copy; Copyright 2023 by Company.com</h5>
+    </div>
+  </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+
+  </body>
+</html>

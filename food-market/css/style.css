@@ -1,0 +1,168 @@
+:root{
+    --bs-green:#60BE74;
+    --bs-fontrubik:'Rubik', sans-serif;
+    --bs-fonth: 'Abril Fatface', cursive;
+}
+.tgreen{
+    color:var(--bs-green);
+}
+.fonth{
+    font-family: var(--bs-fonth);
+}
+.fontrubik{
+    font-family: var(--bs-fontrubik);
+}
+ /* *{
+    border:1px solid black;
+}     */
+
+/* .bar a{
+    color: var(--bs-green);
+} */
+.header img{
+    width:15vw;
+}
+.carousel-indicators button{
+    margin:50px 0px 80px 0px;
+}
+.newproduct .fontrubik
+
+ /* .carousel-caption{
+    display:flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.twocards .card-img-overlay{
+    outline:2px solid white;
+    outline-offset: -15px;
+    padding:10px;
+    font-size:large;
+    /* height: 500px !important; */
+}
+.twocards .card-img-overlay p{
+    font-size: small;
+}
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.organic{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+.border{
+    outline: 1px solid white;
+    outline-offset: -10px;
+}
+.fun-fact .card{
+    height: 50px;
+    background-position: cover;
+    background-size: contain;
+}
+.carousel-item{
+    height: 100vh !important;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.fun-fact{
+    background-image:linear-gradient(rgba(2, 2, 2,0.8),rgba(0, 0, 0,0.8)) ,url(../images/funfact-bg-1-1dhi.jpg); 
+    /* color:white; */
+    
+}
+.fun-fact .d1{
+    border-right: 1px solid white;
+    margin-bottom: 30px;  
+}
+.cell .c1{
+    background-image: url(../images/call-1-1dhi.jpg);
+    height:750px;
+}
+.cell .c1 img{
+    /* padding:0px,50px; */
+}
+.cell .c2{
+    background-color: var(--bs-green);
+    height: 750px;
+}
+
+.cell .card-body{
+    background-color: rgba(173, 255, 47,0);
+}
+.c22{
+    /* border:1px solid black; */
+    padding:10% 15%;
+    background-image:url(../images/call2-shape-leaf-dhi.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.c22 h2{
+    font-size: xx-large;
+}
+/* .twocards .card img{
+    background-image:linear-gradient(rgba(2, 2, 2,0.8),rgba(0, 0, 0,0.8));
+} */
+.everyday p{
+    line-height:40px;
+}
+.everyday .dhi{
+    line-height:30px;
+}
+.everyday .fig{
+    background-image:url(../images/everydaybgleaf1dhi.png);
+    background-position:left;
+}
+.testimonial{
+    height:280px;
+    width:100%;
+    /* border: 1px solid black; */
+    background-image:url(../images/testimonials-head.dhi.png);
+    background-position:center;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.testimonial b{
+    font-size: xx-large;
+}
+.newsletter{
+    background:url("../images/newsletter-left.png"),rgb(56,58,57);
+    background-position:top right;
+    background-repeat:no-repeat;
+    background-size: contain;
+    /* background-image: url("../images/newsletter-right-dhi.png");
+    background-position: left; */
+}
+.newsletter .submit{
+    background-color: var(--bs-green);
+}
+/* .carousel-item{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+} */
+.policy .c1{
+    border-right:1px solid rgb(101, 96, 96);   
+}
+
+/* .policy{
+    font-family: var(--bs-fontrubik);
+} */
+.new-product .p1 i{
+    background-color: var(--bs-green);
+}
+.new-product .bgimg{
+    background-image: url("../images/new-product-dhi-bg.png") ;
+    background-position: right top;
+    background-repeat:no-repeat;
+}
+.offcanvas-body.nav-item-active {
+    color: red;
+}
